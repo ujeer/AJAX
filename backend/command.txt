@@ -1,1 +1,3 @@
-uvicorn server:app --reload
+cd backedn
+pip install -r requirements.txt
+python -m uvicorn server:app --reload
